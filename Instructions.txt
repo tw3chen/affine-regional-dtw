@@ -1,0 +1,67 @@
+NOTE: Result reproduction relies heavily on the use of MATLAB, and the machine that went through the below steps is a Windows 8 machine.
+
+INSTALLATION
+ 1. Extract ARDTWPackage.rar to a folder (say ARDTWPackage).
+ 2. Download Subaxis.m and export_fig.m from MATHWORKS, and add the two files to MATLAB path. These 2 files are used to plot and export figures.
+ 3. Go to ARDTWPackage/Code and type the following commands in MATLAB:
+    mex RDTW.cpp;
+    mex ComputeGARDTWParam.cpp;
+    mex LARDTW.cpp;
+ 4. Add ARDTWPackage/Code to MATLAB path.
+
+RESULT REPRODUCTION
+ 1. Figure 1
+    Go to ARDTWPackage/Code/Figure 1
+    Run Main.m in MATLAB
+ 2. Figure 2
+    Go to ARDTWPackage/Code/Figure 2
+    Run Main.m in MATLAB
+ 3. Figure 3
+    Go to ARDTWPackage/Code/Figure 3
+    Run Main.m in MATLAB
+ 4. Figure 4
+    Go to ARDTWPackage/Code/Figure 4
+    Run Main.m in MATLAB
+ 5. Figure 5
+    Go to ARDTWPackage/Code/Figure 5
+    Run Main.m in MATLAB
+ 6. Figure 6
+    Go to ARDTWPackage/Code/Figure 6
+    Run Main.m in MATLAB
+ 7. Figure 7
+    Go to ARDTWPackage/Code/Obtain Global Alignment Results
+    Run Main.m in MATLAB
+    Wait until completion of code
+    Go to ARDTWPackage/Code/Figure 7
+    Run Main.m in MATLAB
+ 8. Figure 8
+    Go to ARDTWPackage/Code/Obtain Component-Based Alignment Results
+    Run Main.m in MATLAB
+    Wait until completion of code
+    Go to ARDTWPackage/Code/Figure 8
+    Run Main.m in MATLAB
+ 9. Obtain results needed to reproduce Figure 9, Figure 10, Figure 12, Table 2
+    Download the UCR time series database and extract the dataset folders to ARDTWPackage/Dataset/Classification
+    Go to ARDTWPackage/Code/Obtain Difference Measure Results
+    Run Main.m in MATLAB
+    Wait until completion of code (this might take several days or even weeks, and it is recommended to run it for 1 dataset at a time)
+10. Figure 9, Figure 10, Table 2
+    Step 9 needs to be completed first
+	Go to ARDTWPackage/Code/Figure 9
+	Run Main.m in MATLAB (outputs Table.txt containing Table 1 in LATEX format and the figures in jpg images)
+11. Figure 11
+	Go to ARDTWPackage/Code/Obtain Global Alignment Results - Vary Warpings
+	Run Main.m in MATLAB
+	Wait until completion of code
+	Go to ARDTWPackage/Code/Figure 10
+	Run Main.m in MATLAB
+11. Figure 12
+	Go to ARDTWPackage/Code/Figure 12
+	Run Main.m in MATLAB
+12. Figure 13
+	Go to ARDTWPackage/Code/Figure 13
+	Run RecordTime.m in MATLAB
+	Wait until completion of code
+	Run Main.m in MATLAB
+	
+If there are any issues, please contact tw3chen@gmail.com

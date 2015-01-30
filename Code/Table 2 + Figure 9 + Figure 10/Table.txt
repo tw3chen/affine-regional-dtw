@@ -1,0 +1,28 @@
+\begin{table*}
+\caption{Win-loss ratios of 1-NN with proposed elastic measures against other elastic difference measures on the UCR database.}
+\label{Table:WinLossDifferenceMeasure}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multirow{2}{*}{Compared elastic difference measures} & \multicolumn{4}{c|}{Proposed elastic difference measures}\\
+\cline{2-5}
+ & ADTW & RDTW & GARDTW & LARDTW \\
+\hline
+DTW & $1.1$ ($15$,$16$,$12$) & $2.1$ ($25$,$ 8$,$10$) & $2.2$ ($26$,$ 7$,$10$) & $1.1$ ($22$,$ 2$,$19$) \\
+\hline
+WDTW & $0.7$ ($16$,$ 3$,$24$) & $1.7$ ($25$,$ 4$,$14$) & $2.0$ ($27$,$ 3$,$13$) & $1.0$ ($20$,$ 2$,$21$) \\
+\hline
+DDTW & $1.9$ ($28$,$ 0$,$15$) & $2.9$ ($32$,$ 0$,$11$) & $2.6$ ($31$,$ 0$,$12$) & $3.3$ ($33$,$ 0$,$10$) \\
+\hline
+WDDTW & $1.3$ ($24$,$ 1$,$18$) & $2.0$ ($28$,$ 1$,$14$) & $2.4$ ($30$,$ 1$,$12$) & $2.7$ ($31$,$ 1$,$11$) \\
+\hline
+LCSS & $1.5$ ($25$,$ 1$,$17$) & $3.8$ ($34$,$ 0$,$ 9$) & $3.1$ ($32$,$ 1$,$10$) & $1.3$ ($23$,$ 2$,$18$) \\
+\hline
+MSM & $1.0$ ($22$,$ 0$,$21$) & $0.8$ ($19$,$ 0$,$24$) & $1.1$ ($23$,$ 0$,$20$) & $0.9$ ($20$,$ 0$,$23$) \\
+\hline
+TWE & $1.3$ ($23$,$ 2$,$18$) & $1.7$ ($27$,$ 0$,$16$) & $2.0$ ($28$,$ 1$,$14$) & $1.0$ ($21$,$ 1$,$21$) \\
+\hline
+ERP & $1.4$ ($24$,$ 2$,$17$) & $3.5$ ($33$,$ 1$,$ 9$) & $2.6$ ($30$,$ 2$,$11$) & $1.5$ ($25$,$ 1$,$17$) \\
+\hline
+\end{tabular}
+\end{table*}
